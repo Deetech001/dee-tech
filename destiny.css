@@ -1,0 +1,11 @@
+#down{
+    border: 5px 10px 5px 10px;
+    border-color: black;
+    padding: 5px 10px 5px 10px;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+}
+body{
+    background-color: red;
+}

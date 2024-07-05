@@ -1,0 +1,112 @@
+.image {
+  background-image: url(deetech.jpeg.jpg);
+  background-size: 300px 400px;
+  height: 400px;
+  width: 305px;
+  color: white;
+  background-color: orangered;
+  display: inline-block;
+  position: absolute;
+  border-radius: 25px 25px 200px 200px;
+}
+#left {
+  border-radius: 15px 15px 0px 15px;
+}
+#right {
+  border-radius: 15px 15px 15px 0px;
+}
+
+#left,
+#right {
+  height: 550px;
+  width: 150px;
+  display: inline-block;
+  background-color: orangered;
+}
+
+.left1 {
+  bottom: 0;
+  height: auto;
+  width: auto;
+  margin-left: -50%;
+  left: 60%;
+  position: absolute;
+  padding-bottom: 20px;
+}
+.right1 {
+  bottom: 0;
+  height: auto;
+  width: auto;
+  right: 60%;
+  margin-right: -50%;
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.left1 span,
+.right1 span {
+  display: block;
+  color: white;
+}
+.head1,
+.head2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.clickbox {
+  position: absolute;
+  border-radius: 1px 1px 15px 15px;
+}
+.container2 {
+  background-color: orangered;
+  color: white;
+  left: 370px;
+  position: absolute;
+  display: inline-block;
+  height: 550px;
+  width: 300px;
+  border-radius: 25px;
+}
+#username {
+  border: none;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 20px 50px;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: bold;
+  justify-content: center;
+  text-align: center;
+}
+#btn {
+  border: none;
+  margin: 10px 68px;
+  padding: 15px 50px;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+.a {
+  text-decoration: none;
+  color: white;
+}
+.link {
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 10px;
+  font-size: large;
+}
+.bd {
+  min-height: 500vh;
+  min-width: 100vh;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
