@@ -1,0 +1,94 @@
+.image {
+  background-image: url(deetech1.jpeg.jpg);
+  background-size: 300px 400px;
+  height: 400px;
+  width: 300px;
+  background-color: orangered;
+  color: white;
+  position: fixed;
+  display: inline-block;
+  border-radius: 15px 15px 100px 100px;
+}
+.container1 h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  top: 20px;
+}
+.card-click {
+  height: auto;
+  width: auto;
+  position: fixed;
+}
+.container1 {
+  background-color: white;
+  display: inline-block;
+  border-radius: 15px;
+}
+#left {
+  border-radius: 15px 15px 0px 15px;
+}
+#right {
+  border-radius: 15px 15px 15px 0px;
+}
+#left,
+#right {
+  height: 500px;
+  width: 148px;
+  background-color: orangered;
+  color: white;
+  display: inline-block;
+}
+.left1 span,
+.right2 span {
+  display: block;
+}
+.left1 {
+  position: absolute;
+  left: 63%;
+  margin-left: -50%;
+  bottom: 0;
+}
+.right2 {
+  position: absolute;
+  right: 63%;
+  margin-right: -50%;
+  bottom: 0;
+}
+
+.container2 {
+  display: inline-block;
+  position: absolute;
+  left: 350px;
+  height: 500px;
+  width: 300px;
+  border-radius: 15px;
+  color: white;
+  background-color: orangered;
+}
+input,
+.username {
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: 10px 30px 30px;
+  border: none;
+  text-align: center;
+}
+.username {
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: 10px 80px 30px;
+  border: none;
+  text-align: center;
+}
+
+.last a {
+  text-decoration: none;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 30%;
+}
+@media (max-width: 1000px) {
+  .container2 {
+    display: block;
+  }
+}
