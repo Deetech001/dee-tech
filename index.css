@@ -1,3 +1,105 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+html {
+  --button: white;
+  --background: red;
+}
+body {
+  background-image: url(office.jpeg);
+  background-size: 100%;
+  min-height: 100vh;
+  max-height: 1000px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--button);
+  padding: 0 5px;
+  font-family: "poppins:ital";
+  font-size: 1rem;
+}
+.first-article {
+  max-width: 1440px;
+  padding: 0 5px;
+}
+.first-section {
+  padding: 50px;
+  text-align: center;
+  font-size: 2.2rem;
+  color: var(--button);
+  padding-left: 5px;
+}
+.first-section p {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.second-section a {
+  text-decoration: none;
+  background-color: blue;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 100px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.footer {
+  max-width: 1440px;
+  padding: 0 5px;
+  font-size: 1rem;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+.footer input {
+  width: 300px;
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+.input .btn {
+  position: absolute;
+  background-color: blue;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+@media (max-width: 1000px) {
+  body {
+    background-size: 500px 900px;
+    font-size: 1.3rem;
+  }
+  .nav {
+    font-size: 0.8rem;
+  }
+  .first-section {
+    padding: 80px;
+  }
+  .nav h1 {
+    font-size: 1.3rem;
+  }
+  .first-section h2 {
+    font-size: 1.3rem;
+  }
+  .first-section p {
+    font-size: 0.8rem;
+  }
+  .second-section {
+    flex-direction: column;
+  }
+  .footer {
+    min-width: 150px;
+  }
+  .footer input {
+    width: 180px;
+  }
 }
