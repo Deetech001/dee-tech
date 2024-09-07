@@ -5,7 +5,7 @@ html {
   --background: red;
 }
 body {
-  background-image: url(./office.jpeg);
+  background-image: url(../office.jpeg);
   background-size: 100%;
   min-height: 100vh;
   max-height: 1000px;
